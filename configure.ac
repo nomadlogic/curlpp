@@ -133,7 +133,9 @@ AC_MSG_RESULT(no)
 ],
 [
 AC_MSG_RESULT(yes)
-CXXFLAGS="$CXXFLAGS -Werror "
+# A3: temp disable abort on warn
+#CXXFLAGS="$CXXFLAGS -Werror "
+CXXFLAGS="$CXXFLAGS "
 ]
 )
 
